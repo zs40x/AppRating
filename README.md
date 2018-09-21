@@ -1,11 +1,11 @@
-## AppRating - iOS App Rating for Swift 3
+## AppRating - iOS App Rating for Swift 4
 
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/AppRating.svg)](https://img.shields.io/cocoapods/v/AppRating.svg)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/cocoapods/p/AppRating.svg?style=flat)](http://cocoadocs.org/docsets/AppRating)
-[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg?style=flat)](https://developer.apple.com/swift/)
 
-AppRating is a simple yet powerful App Review Manager for iOS and OSX written in Swift. It is based on [Armchair](https://github.com/UrbanApps/Armchair) but mainly rewritten for Swift3.
+AppRating is a simple yet powerful App Review Manager for iOS and OSX written in Swift. It is based on [Armchair](https://github.com/UrbanApps/Armchair) but mainly rewritten for Swift4.
 
 ## What's new?
 
@@ -20,7 +20,7 @@ The average end-user will only write a review if something is wrong with your Ap
 ## Requirements
 
 - Xcode 8.3+ (get the beta version at [Apple Developer](https://developer.apple.com/))
-- iOS 9.0+
+- iOS 10.3+
 
 ## Installation
 
@@ -38,7 +38,7 @@ To integrate AppRating into your Xcode project using CocoaPods, specify it in yo
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '9.0'
+platform :ios, '10.3'
 use_frameworks!
 
 pod 'AppRating', '>= 0.0.1'
